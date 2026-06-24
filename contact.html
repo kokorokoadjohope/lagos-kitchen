@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagos Kitchen 🌸 | Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Lagos Kitchen <span>🌸</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="contact-section">
+        <div class="form-card">
+            <h2>📋 Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inquiry">Inquiry Type:</label>
+                    <select id="inquiry" name="inquiry" required>
+                        <option value="">-- Select an option --</option>
+                        <option value="order">Food Order</option>
+                        <option value="reservation">Table Reservation</option>
+                        <option value="catering">Catering Service</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="gender" value="male" required> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Interests:</label>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="interests" value="rice"> Rice Dishes</label>
+                        <label><input type="checkbox" name="interests" value="soups"> Soups</label>
+                        <label><input type="checkbox" name="interests" value="snacks"> Snacks</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Tell us what you need..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="info-card">
+            <h3>📍 Contact Information</h3>
+            <p><strong>Address:</strong> Weifang University of Science and Technology, Shouguang, Shandong, Weifang</p>
+            <p><strong>Phone:</strong> 19508402436</p>
+            <p><strong>Email:</strong> kokorokoadjohope@gmail.com</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2026 Lagos Kitchen 🌸 | Made with <span class="heart">♥</span> in Shouguang</p>
+    </footer>
+
+</body>
+</html>
